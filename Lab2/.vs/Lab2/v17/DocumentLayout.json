@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\",
+  "WorkspaceRootPath": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab2\\lab2\\lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai1.cs",
+              "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs",
+              "RelativeDocumentMoniker": "Lab2\\Bai1.cs",
+              "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs",
+              "RelativeToolTip": "Lab2\\Bai1.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:38:23.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bai1.cs [Design]",
+              "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs",
+              "RelativeDocumentMoniker": "Lab2\\Bai1.cs",
+              "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs [Design]",
+              "RelativeToolTip": "Lab2\\Bai1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T03:37:07.385Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\Lab2\\Form1.cs",
-              "RelativeDocumentMoniker": "Lab2\\Form1.cs",
-              "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\Lab2\\Form1.cs [Design]",
-              "RelativeToolTip": "Lab2\\Form1.cs [Design]",
+              "Title": "Bai2.cs [Design]",
+              "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai2.cs",
+              "RelativeDocumentMoniker": "Lab2\\Bai2.cs",
+              "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai2.cs [Design]",
+              "RelativeToolTip": "Lab2\\Bai2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T01:13:10.209Z",
+              "WhenOpened": "2024-03-18T03:29:40.339Z",
               "EditorCaption": " [Design]"
             }
           ]
