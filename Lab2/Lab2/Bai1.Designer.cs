@@ -28,57 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Content = new System.Windows.Forms.RichTextBox();
-            this.ReadFile = new System.Windows.Forms.Button();
-            this.WriteFile = new System.Windows.Forms.Button();
+            this.read = new System.Windows.Forms.Button();
+            this.write = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // Content
+            // read
             // 
-            this.Content.Location = new System.Drawing.Point(222, 31);
-            this.Content.Name = "Content";
-            this.Content.Size = new System.Drawing.Size(544, 397);
-            this.Content.TabIndex = 0;
-            this.Content.Text = "";
+            this.read.Location = new System.Drawing.Point(64, 45);
+            this.read.Name = "read";
+            this.read.Size = new System.Drawing.Size(129, 55);
+            this.read.TabIndex = 0;
+            this.read.Text = "Đọc file";
+            this.read.UseVisualStyleBackColor = true;
+            this.read.Click += new System.EventHandler(this.read_Click);
             // 
-            // ReadFile
+            // write
             // 
-            this.ReadFile.Location = new System.Drawing.Point(52, 56);
-            this.ReadFile.Name = "ReadFile";
-            this.ReadFile.Size = new System.Drawing.Size(114, 59);
-            this.ReadFile.TabIndex = 1;
-            this.ReadFile.Text = "Đọc File";
-            this.ReadFile.UseVisualStyleBackColor = true;
-            this.ReadFile.Click += new System.EventHandler(this.ReadFile_Click);
+            this.write.Location = new System.Drawing.Point(64, 134);
+            this.write.Name = "write";
+            this.write.Size = new System.Drawing.Size(129, 55);
+            this.write.TabIndex = 1;
+            this.write.Text = "Ghi file";
+            this.write.UseVisualStyleBackColor = true;
+            this.write.Click += new System.EventHandler(this.write_Click);
             // 
-            // WriteFile
+            // richTextBox1
             // 
-            this.WriteFile.Location = new System.Drawing.Point(52, 146);
-            this.WriteFile.Name = "WriteFile";
-            this.WriteFile.Size = new System.Drawing.Size(114, 56);
-            this.WriteFile.TabIndex = 2;
-            this.WriteFile.Text = "Ghi File";
-            this.WriteFile.UseVisualStyleBackColor = true;
+            this.richTextBox1.Location = new System.Drawing.Point(237, 45);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(511, 377);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = "";
             // 
             // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.WriteFile);
-            this.Controls.Add(this.ReadFile);
-            this.Controls.Add(this.Content);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.write);
+            this.Controls.Add(this.read);
             this.Name = "Bai1";
-            this.Text = "Bài 1";
+            this.Text = "Bai1";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox Content;
-        private System.Windows.Forms.Button ReadFile;
-        private System.Windows.Forms.Button WriteFile;
+        private System.Windows.Forms.Button read;
+        private System.Windows.Forms.Button write;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
