@@ -34,8 +34,6 @@ namespace Lab2
                     }
                 }
             }
-
-            
         }
 
         private void write_Click(object sender, EventArgs e)
