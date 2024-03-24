@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.readfileBtn = new System.Windows.Forms.Button();
+            this.readFilebutton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.filename = new System.Windows.Forms.TextBox();
             this.url = new System.Windows.Forms.TextBox();
@@ -40,18 +40,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // readfileBtn
+            // readFilebutton
             // 
-            this.readfileBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.readfileBtn.Location = new System.Drawing.Point(28, 21);
-            this.readfileBtn.Name = "readfileBtn";
-            this.readfileBtn.Size = new System.Drawing.Size(260, 94);
-            this.readfileBtn.TabIndex = 0;
-            this.readfileBtn.Text = "Đọc File";
-            this.readfileBtn.UseVisualStyleBackColor = true;
-            this.readfileBtn.Click += new System.EventHandler(this.readfileBtn_Click);
+            this.readFilebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.readFilebutton.Location = new System.Drawing.Point(28, 21);
+            this.readFilebutton.Name = "readFilebutton";
+            this.readFilebutton.Size = new System.Drawing.Size(260, 94);
+            this.readFilebutton.TabIndex = 0;
+            this.readFilebutton.Text = "Đọc File";
+            this.readFilebutton.UseVisualStyleBackColor = true;
+            this.readFilebutton.Click += new System.EventHandler(this.readFilebutton_Click);
             // 
             // richTextBox1
             // 
@@ -146,11 +147,22 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Số ký tự";
             // 
+            // Exit
+            // 
+            this.Exit.Location = new System.Drawing.Point(72, 414);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(166, 66);
+            this.Exit.TabIndex = 12;
+            this.Exit.Text = "Thoát";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // Bai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 506);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -162,7 +174,7 @@
             this.Controls.Add(this.url);
             this.Controls.Add(this.filename);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.readfileBtn);
+            this.Controls.Add(this.readFilebutton);
             this.Name = "Bai2";
             this.Text = "Bai2";
             this.ResumeLayout(false);
@@ -172,7 +184,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button readfileBtn;
+        private System.Windows.Forms.Button readFilebutton;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.TextBox filename;
         private System.Windows.Forms.TextBox url;
@@ -184,5 +196,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button Exit;
     }
 }
