@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -51,6 +52,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Đọc File";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // richTextBox1
             // 
@@ -145,11 +147,22 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Số ký tự";
             // 
+            // Exit
+            // 
+            this.Exit.Location = new System.Drawing.Point(72, 414);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(166, 66);
+            this.Exit.TabIndex = 12;
+            this.Exit.Text = "Thoát";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // Bai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(876, 506);
+            this.Controls.Add(this.Exit);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -183,5 +196,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button Exit;
     }
 }
