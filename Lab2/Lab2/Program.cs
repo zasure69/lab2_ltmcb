@@ -16,7 +16,7 @@ namespace Lab2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Bai5());
+            Application.Run(new Lab2());
         }
     }
 }

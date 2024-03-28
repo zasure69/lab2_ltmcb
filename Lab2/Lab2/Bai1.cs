@@ -62,7 +62,7 @@ namespace Lab2
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }

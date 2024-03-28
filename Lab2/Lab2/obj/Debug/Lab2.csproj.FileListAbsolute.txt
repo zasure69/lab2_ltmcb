@@ -1,29 +1,15 @@
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\bin\Debug\Lab2.exe.config
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\bin\Debug\Lab2.exe
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\bin\Debug\Lab2.pdb
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.exe
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.pdb
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.Bai1.resources
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.Bai2.resources
-<<<<<<< HEAD
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\bin\Debug\Lab2.exe.config
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\bin\Debug\Lab2.exe
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\bin\Debug\Lab2.pdb
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.csproj.AssemblyReference.cache
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai1.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai2.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai3.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai4.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai5.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.cache
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.exe
 C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.pdb
-=======
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.Bai3.resources
-D:\code\C#\lab2_ltmcb\Lab2\Lab2\obj\Debug\Lab2.Bai5.resources
->>>>>>> 88c6358f71243a40cc7eef1643985d312e65845d
-C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai3.resources
-C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Bai5.resources
+C:\TLHT\HK2_2023-2024\LapTrinhMangCanBan\TH\LAB2\Lab2\Lab2\obj\Debug\Lab2.Lab2.resources
