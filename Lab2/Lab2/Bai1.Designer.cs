@@ -83,7 +83,6 @@
             this.Controls.Add(this.read);
             this.Name = "Bai1";
             this.Text = "Bai1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }

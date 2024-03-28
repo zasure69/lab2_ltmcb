@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.readFilebutton = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.filename = new System.Windows.Forms.TextBox();
+            this.url = new System.Windows.Forms.TextBox();
+            this.linenum = new System.Windows.Forms.TextBox();
+            this.wordnum = new System.Windows.Forms.TextBox();
+            this.charnum = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,16 +43,16 @@
             this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // readFilebutton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(28, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(260, 94);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Đọc File";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.readFilebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.readFilebutton.Location = new System.Drawing.Point(28, 21);
+            this.readFilebutton.Name = "readFilebutton";
+            this.readFilebutton.Size = new System.Drawing.Size(260, 94);
+            this.readFilebutton.TabIndex = 0;
+            this.readFilebutton.Text = "Đọc File";
+            this.readFilebutton.UseVisualStyleBackColor = true;
+            this.readFilebutton.Click += new System.EventHandler(this.readFilebutton_Click);
             // 
             // richTextBox1
             // 
@@ -62,45 +62,45 @@
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
-            // textBox1
+            // filename
             // 
-            this.textBox1.Location = new System.Drawing.Point(149, 152);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(139, 22);
-            this.textBox1.TabIndex = 2;
+            this.filename.Location = new System.Drawing.Point(149, 152);
+            this.filename.Name = "filename";
+            this.filename.ReadOnly = true;
+            this.filename.Size = new System.Drawing.Size(139, 22);
+            this.filename.TabIndex = 2;
             // 
-            // textBox2
+            // url
             // 
-            this.textBox2.Location = new System.Drawing.Point(149, 200);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(139, 22);
-            this.textBox2.TabIndex = 3;
+            this.url.Location = new System.Drawing.Point(149, 200);
+            this.url.Name = "url";
+            this.url.ReadOnly = true;
+            this.url.Size = new System.Drawing.Size(139, 22);
+            this.url.TabIndex = 3;
             // 
-            // textBox3
+            // linenum
             // 
-            this.textBox3.Location = new System.Drawing.Point(149, 259);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(139, 22);
-            this.textBox3.TabIndex = 4;
+            this.linenum.Location = new System.Drawing.Point(149, 259);
+            this.linenum.Name = "linenum";
+            this.linenum.ReadOnly = true;
+            this.linenum.Size = new System.Drawing.Size(139, 22);
+            this.linenum.TabIndex = 4;
             // 
-            // textBox4
+            // wordnum
             // 
-            this.textBox4.Location = new System.Drawing.Point(149, 316);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(139, 22);
-            this.textBox4.TabIndex = 5;
+            this.wordnum.Location = new System.Drawing.Point(149, 316);
+            this.wordnum.Name = "wordnum";
+            this.wordnum.ReadOnly = true;
+            this.wordnum.Size = new System.Drawing.Size(139, 22);
+            this.wordnum.TabIndex = 5;
             // 
-            // textBox5
+            // charnum
             // 
-            this.textBox5.Location = new System.Drawing.Point(149, 371);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(139, 22);
-            this.textBox5.TabIndex = 6;
+            this.charnum.Location = new System.Drawing.Point(149, 371);
+            this.charnum.Name = "charnum";
+            this.charnum.ReadOnly = true;
+            this.charnum.Size = new System.Drawing.Size(139, 22);
+            this.charnum.TabIndex = 6;
             // 
             // label1
             // 
@@ -168,13 +168,13 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.charnum);
+            this.Controls.Add(this.wordnum);
+            this.Controls.Add(this.linenum);
+            this.Controls.Add(this.url);
+            this.Controls.Add(this.filename);
             this.Controls.Add(this.richTextBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.readFilebutton);
             this.Name = "Bai2";
             this.Text = "Bai2";
             this.ResumeLayout(false);
@@ -184,13 +184,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button readFilebutton;
         private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox filename;
+        private System.Windows.Forms.TextBox url;
+        private System.Windows.Forms.TextBox linenum;
+        private System.Windows.Forms.TextBox wordnum;
+        private System.Windows.Forms.TextBox charnum;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

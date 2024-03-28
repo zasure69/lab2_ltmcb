@@ -17,7 +17,6 @@ namespace Lab2
         {
             InitializeComponent();
         }
-
         private void read_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
@@ -35,8 +34,6 @@ namespace Lab2
                     }
                 }
             }
-
-            
         }
 
         private void write_Click(object sender, EventArgs e)
@@ -65,7 +62,7 @@ namespace Lab2
 
         private void Exit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }

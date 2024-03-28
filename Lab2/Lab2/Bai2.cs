@@ -18,7 +18,7 @@ namespace Lab2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void readFilebutton_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             if (ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
@@ -59,20 +59,19 @@ namespace Lab2
                                 }
                                   
                             }    
-                            textBox1.Text = ofd.SafeFileName.ToString();
-                            textBox2.Text = ofd.FileName.ToString();
-                            textBox3.Text = lineCount.ToString();
-                            textBox4.Text = wordCount.ToString();
-                            textBox5.Text = charCount.ToString();
+                            url.Text = ofd.SafeFileName.ToString();
+                            filename.Text = ofd.FileName.ToString();
+                            linenum.Text = lineCount.ToString();
+                            wordnum.Text = wordCount.ToString();
+                            charnum.Text = charCount.ToString();
                         }
                     }
                 }
             }
         }
-
         private void Exit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
         static string SwitchChar(char input)
         {
@@ -111,5 +110,6 @@ namespace Lab2
                     }
             }
         }
+
     }
 }
