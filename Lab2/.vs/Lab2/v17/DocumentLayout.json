@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,9 +54,9 @@
               "Title": "Bai5.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai5.cs",
-              "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs",
-              "RelativeToolTip": "Lab2\\Bai5.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAD4vxsAAAAiAAAA",
+              "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs*",
+              "RelativeToolTip": "Lab2\\Bai5.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBUAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T07:44:03.543Z",
               "EditorCaption": ""
@@ -70,8 +70,7 @@
               "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs [Design]",
               "RelativeToolTip": "Lab2\\Bai5.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T07:41:08.62Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-24T07:41:08.62Z"
             },
             {
               "$type": "Document",
@@ -82,8 +81,7 @@
               "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai3.cs [Design]",
               "RelativeToolTip": "Lab2\\Bai3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:39:52.615Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-24T04:39:52.615Z"
             },
             {
               "$type": "Document",
@@ -95,8 +93,7 @@
               "RelativeToolTip": "Lab2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:27:40.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T04:27:40.087Z"
             },
             {
               "$type": "Document",
@@ -108,8 +105,7 @@
               "RelativeToolTip": "Lab2\\Bai2.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAtwB8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:17:51.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T04:17:51.276Z"
             },
             {
               "$type": "Document",
@@ -121,8 +117,7 @@
               "RelativeToolTip": "Lab2\\Bai1.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAtwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:38:23.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T03:38:23.215Z"
             },
             {
               "$type": "Document",
@@ -133,8 +128,7 @@
               "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs [Design]",
               "RelativeToolTip": "Lab2\\Bai1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T03:37:07.385Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-18T03:37:07.385Z"
             },
             {
               "$type": "Document",

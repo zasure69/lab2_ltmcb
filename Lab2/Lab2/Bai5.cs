@@ -16,25 +16,34 @@ namespace Lab2
         public Bai5()
         {
             InitializeComponent();
-            DirectoryInfo di = new DirectoryInfo("D:\\code");
+            DirectoryInfo di = new DirectoryInfo("D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2");
             FileInfo[] fi = di.GetFiles();
+            listView1.View = View.Details;
             ColumnHeader colHead;
             
             colHead = new ColumnHeader();
             colHead.Text = "Filename";
+            colHead.Width = 120;
             listView1.Columns.Add(colHead);
       
             colHead = new ColumnHeader();
             colHead.Text = "Size";
-            listView1.Columns.Add(colHead); 
-      
+            colHead.Width = 100;
+            listView1.Columns.Add(colHead);
+
             colHead = new ColumnHeader();
-            colHead.Text = "Last accessed";
+            colHead.Text = "Extention";
+            colHead.Width = 100;
+            listView1.Columns.Add(colHead);
+
+            colHead = new ColumnHeader();
+            colHead.Text = "Time";
+            colHead.Width = 200;
             listView1.Columns.Add(colHead);
             //FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
             foreach (FileInfo fi2 in fi) {
-                ListViewItem lvi;
-                ListViewItem.ListViewSubItem lvsi;
+                ListViewItem lvi = new ListViewItem();
+                /*ListViewItem.ListViewSubItem lvsi;
                 lvi = new ListViewItem();
                 lvi.Text = fi2.Name;
                 lvi.ImageIndex = 1;
@@ -46,7 +55,12 @@ namespace Lab2
 
                 lvsi = new ListViewItem.ListViewSubItem();
                 lvsi.Text = fi2.LastAccessTime.ToString();
-                lvi.SubItems.Add(lvsi);
+                lvi.SubItems.Add(lvsi);*/
+                lvi.Text = fi2.Name;    
+                lvi.SubItems.Add(fi2.Length.ToString());
+                lvi.SubItems.Add(fi2.Extension);
+                lvi.SubItems.Add(fi2.CreationTime.ToString());
+                listView1.Items.Add(lvi);
             }
         }
 
