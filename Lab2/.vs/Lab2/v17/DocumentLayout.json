@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|d:\\code\\c#\\lab2_ltmcb\\lab2\\lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab2\\lab2\\lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|c:\\tlht\\hk2_2023-2024\\laptrinhmangcanban\\th\\lab2\\lab2\\lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> fc1a3412d81ea0697b626a78b3251dbcfbcd26e0
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,11 +27,15 @@
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> fc1a3412d81ea0697b626a78b3251dbcfbcd26e0
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +43,15 @@
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|D:\\code\\C#\\lab2_ltmcb\\Lab2\\lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> fc1a3412d81ea0697b626a78b3251dbcfbcd26e0
       "RelativeMoniker": "D:0:0:{014CEAFD-F68C-4381-BF31-C36EF6E39A1E}|Lab2\\Lab2.csproj|solutionrelative:lab2\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -51,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bai3.cs",
+              "DocumentMoniker": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\Lab2\\Bai3.cs",
+              "RelativeDocumentMoniker": "Lab2\\Bai3.cs",
+              "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\Lab2\\Bai3.cs",
+              "RelativeToolTip": "Lab2\\Bai3.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T00:39:11.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Bai5.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai5.cs",
               "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs",
               "RelativeToolTip": "Lab2\\Bai5.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAiwDoAAAApAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAQwDoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T07:44:03.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bai5.cs [Design]",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai5.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai5.cs",
@@ -73,14 +110,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Bai3.cs [Design]",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai3.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai3.cs",
+<<<<<<< HEAD
               "ToolTip": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai3.cs [Design]",
+=======
+              "ToolTip": "C:\\TLHT\\HK2_2023-2024\\LapTrinhMangCanBan\\TH\\LAB2\\Lab2\\Lab2\\Bai3.cs [Design]",
+>>>>>>> fc1a3412d81ea0697b626a78b3251dbcfbcd26e0
               "RelativeToolTip": "Lab2\\Bai3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:39:52.615Z"
+              "WhenOpened": "2024-03-24T04:39:52.615Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -92,11 +134,12 @@
               "RelativeToolTip": "Lab2\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T04:27:40.087Z"
+              "WhenOpened": "2024-03-24T04:27:40.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Bai2.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai2.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai2.cs",
@@ -108,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bai1.cs",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai1.cs",
@@ -120,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Bai1.cs [Design]",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai1.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai1.cs",
@@ -131,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Bai2.cs [Design]",
               "DocumentMoniker": "D:\\code\\C#\\lab2_ltmcb\\Lab2\\Lab2\\Bai2.cs",
               "RelativeDocumentMoniker": "Lab2\\Bai2.cs",

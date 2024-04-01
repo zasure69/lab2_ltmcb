@@ -36,12 +36,23 @@ namespace Lab2
                                 return;
                             }
                             string[] source = content.Split(new string[] {"\r\n"}, StringSplitOptions.RemoveEmptyEntries);
+                            output.Clear();
                             for (int i = 0; i < source.Length; i++)
                             {
                                 if (source[i].Contains('+'))
                                 {
                                     string[] calc = source[i].Split(new char[] { ' ', '+' }, StringSplitOptions.RemoveEmptyEntries);
                                     double res = 0;
+                                    int cnt = 0;
+                                    foreach (var j in source[i])
+                                    {
+                                        if (j == '+') cnt++;
+                                    }
+                                    if (cnt != calc.Length - 1)
+                                    {
+                                        MessageBox.Show("Format không hợp lệ!");
+                                        return;
+                                    }
                                     for (int j = 0; j < calc.Length; j++) 
                                     {
                                         double test = 0;
@@ -66,6 +77,16 @@ namespace Lab2
                                 {
                                     string[] calc = source[i].Split(new char[] { ' ', '-' }, StringSplitOptions.RemoveEmptyEntries);
                                     double test = 0;
+                                    int cnt = 0;
+                                    foreach (var j in source[i])
+                                    {
+                                        if (j == '-') cnt++;
+                                    }
+                                    if (cnt != calc.Length - 1)
+                                    {
+                                        MessageBox.Show("Format không hợp lệ!");
+                                        return;
+                                    }
                                     foreach (string x in calc)
                                     {
                                         if (!double.TryParse(x, out test))
@@ -92,6 +113,16 @@ namespace Lab2
                                 {
                                     string[] calc = source[i].Split(new char[] { ' ', '*' }, StringSplitOptions.RemoveEmptyEntries);
                                     double test = 0;
+                                    int cnt = 0;
+                                    foreach (var j in source[i])
+                                    {
+                                        if (j == '*') cnt++;
+                                    }
+                                    if (cnt != calc.Length - 1)
+                                    {
+                                        MessageBox.Show("Format không hợp lệ!");
+                                        return;
+                                    }
                                     foreach (string x in calc)
                                     {
                                         if (!double.TryParse(x, out test))
@@ -118,6 +149,16 @@ namespace Lab2
                                 {
                                     string[] calc = source[i].Split(new char[] { ' ', '/' }, StringSplitOptions.RemoveEmptyEntries);
                                     double test = 0;
+                                    int cnt = 0;
+                                    foreach (var j in source[i])
+                                    {
+                                        if (j == '/') cnt++;
+                                    }
+                                    if (cnt != calc.Length - 1)
+                                    {
+                                        MessageBox.Show("Format không hợp lệ!");
+                                        return;
+                                    }
                                     foreach (string x in calc)
                                     {
                                         if (!double.TryParse(x, out test))
